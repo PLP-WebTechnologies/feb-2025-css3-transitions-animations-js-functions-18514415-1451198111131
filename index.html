@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Porsche x F1 Themed Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Theme Toggle Icon -->
+  <div class="theme-toggle" id="theme-btn" title="Toggle Theme">🌙</div>
+
+  <div class="container">
+    <div class="left-panel">
+      <h1>Wanna Preview my dream car ?, <span id="username-display">Guest</span>!</h1>
+      <input type="text" id="username" placeholder="Enter your name" />
+      <button id="save-btn">Save Name</button>
+      <button id="animate-btn">Preview</button>
+      <div class="progress-container">
+        <div class="speed-bar" id="speed-bar"></div>
+      </div>
+    </div>
+
+    <div class="right-panel">
+      <div class="box" id="animate-box">
+        <img src="res/IMG 1.avif" alt="Porsche 997 GT3 RS" id="car-image" />
+      </div>
+    </div>
+  </div>
+
+  <!-- Placeholder sound -->
+  <audio id="rev-sound" src="res/19 Porsche 997 GT3 RS.mp3" preload="auto"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
